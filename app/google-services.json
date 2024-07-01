@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "948100446918",
+    "project_id": "musafoapp",
+    "storage_bucket": "musafoapp.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:948100446918:android:86b5eec3925a58a3c635c7",
+        "android_client_info": {
+          "package_name": "com.example.safo_app"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBpAV6AIBp0RgHF_Cr6r4xKDbqbyd-tF0E"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

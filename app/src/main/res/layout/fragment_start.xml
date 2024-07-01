@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".start.StartFragment">
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/_300sdp"
+        android:padding="@dimen/_40sdp"
+        android:src="@drawable/water"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/_10sdp"
+        android:paddingHorizontal="@dimen/_20sdp"
+        android:text="Siz suv sotib olishni yoki uyingizga elitib berishimizni istaysizmi? Unada Ro`yxatdan o`tish tugmasizni bosing va ozingizga kerakli bo`lgan mahsulotni buyurtma qiling"
+        android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+        android:textStyle="italic"
+        android:textColor="#00B3D6"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView" />
+
+    <com.google.android.material.card.MaterialCardView
+        android:id="@+id/royhatdanotish"
+        android:layout_width="match_parent"
+        android:layout_marginBottom="@dimen/_30sdp"
+        android:layout_height="@dimen/_50sdp"
+        android:backgroundTint="#00D6F2"
+        android:layout_marginHorizontal="@dimen/_20sdp"
+        app:layout_constraintBottom_toBottomOf="parent">
+
+        <TextView
+
+            android:layout_width="wrap_content"
+            android:text="Ro`yxatdan o`tish"
+            android:textColor="@color/white"
+            android:textStyle="bold"
+            android:layout_gravity="center"
+            android:textAppearance="@style/TextAppearance.AppCompat.Large"
+            android:layout_height="wrap_content"/>
+    </com.google.android.material.card.MaterialCardView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

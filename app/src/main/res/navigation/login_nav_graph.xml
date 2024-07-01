@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/login_nav_graph"
+    app:startDestination="@id/phoneFragment">
+
+
+    <fragment
+        android:id="@+id/phoneFragment"
+        android:name="com.example.safo_app.Login.phone.PhoneFragment"
+        android:label="PhoneFragment" />
+    <fragment
+        android:id="@+id/codeFragment"
+        android:name="com.example.safo_app.Login.code.CodeFragment"
+        android:label="CodeFragment" />
+
+</navigation>
